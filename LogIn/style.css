@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' sans-serif;
+}
+
+.form-searchbar button img{
+    width: 20px;
+    height: 20px;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 25px 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aqua;
+    z-index: 100;
+}
+
+.navbar a{
+    position: relative;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+}
+
+.form-searchbar{
+    width: 250px;
+    height: 30px;
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 6px;
+    display: inline;
+    display: flex;
+    align-items: center;
+}
+
+.form-searchbar input{
+     width: 100%;
+     background: transparent;
+     border: none;
+     outline: none;
+     color: #000000;
+}
+
+.form-searchbar input::placeholder{
+    color: #fff;
+}
+
+.form-searchbar button{
+    width: 30px;
+    height: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+}
